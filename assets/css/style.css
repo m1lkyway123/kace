@@ -19,12 +19,23 @@ a {
   text-decoration: none;
   color: inherit;
 }
+img {
+  max-width: 100%;
+}
 
 .container {
   max-width: 1230px;
   margin: 0 auto;
   padding: 0 10px;
 }
+
+.title {
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+}
+
+
 
 .header__inner {
   display: flex;
@@ -87,4 +98,33 @@ a {
   width: 250px;
   box-sizing: border-box;
   text-align: center;
+}
+
+.collection {
+  padding: 60px 0 70px;
+}
+.collection__item, .releases__item {
+  margin-bottom: 90px;
+  position: relative;
+}
+.collection__title {
+  margin-bottom: 52px;
+}
+.collection__swiper, .releases__swiper {
+  overflow: hidden;
+}
+.collection__swiper-img {
+  margin-bottom: 10px;
+}
+.collection__swiper-text {
+  max-width: 220px;
+  text-align: center;
+  margin: 0 auto;
+  transform: translateX(-6%);
+}
+.releases-button-next, .collection-button-next {
+  right: -20px;
+}
+.releases-button-prev, .collection-button-prev {
+  left: -50px;
 }
